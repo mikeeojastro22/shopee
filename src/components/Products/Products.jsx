@@ -14,8 +14,8 @@ function Products() {
             <img className="product-image" src={headphones} alt="headphones" />
             <div className="description">
                 <ul>
+                <li>Big</li>
                 <li>Comfortable</li>
-                <li>Lightweight</li>
                 </ul>
             </div>
             </div>
