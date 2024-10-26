@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    height: 50px;
+    background-color: #ee4d2d;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-inline: 30px;
+    /* padding-left and padding-right */
+    position: sticky;
+    top: 0;
+}
+
+.shopee-header {
+    font-size: 30px;
+}
+
+.shopee-logo, .right {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .shopee-logo {
+        display: block;
+        max-width: 100px;
+    }
+
+    .right {
+        display: flex;
+        gap: 27px;
+    }
+
+    .shopee-header {
+        display: none;
+    }
+
+    p:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,12 @@
+footer {
+    margin-top: 5%;
+    height: auto;
+    background-color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+}
+
+span a {
+    color: #ee4d2d;
+    text-decoration: none;
+}
