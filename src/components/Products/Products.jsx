@@ -25,8 +25,8 @@ function Products() {
             <img className="product-image" src={monitor} alt="monitor" />
             <div className="description">
                 <ul>
-                <li>High Res</li>
-                <li>Large</li>
+                <li>Good for viewing</li>
+                <li>Not heavy</li>
                 </ul>
             </div>
             </div>
